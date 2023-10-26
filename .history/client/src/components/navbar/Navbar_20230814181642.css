@@ -1,0 +1,29 @@
+.navbar{
+    margin-top: 20px;
+}
+#neubar {
+    background: #FF8F33;
+    border-radius: 20px;
+    margin: auto;
+    width: 60%;
+    padding:20px;
+  }
+  
+  .nav-item .active {
+    border-bottom: #454545 solid 1px;
+  }
+  #neubar .dropdown-menu a:hover {
+    color: #454545
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545
+  }

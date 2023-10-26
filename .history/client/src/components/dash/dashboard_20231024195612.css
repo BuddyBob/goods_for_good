@@ -1,0 +1,166 @@
+.blur-background {
+    filter: blur(1px);
+
+
+    /* Webkit in Chrome 52, Safari 9, Opera 39, and earlier */
+    -webkit-filter: blur(3px); /* You can adjust the blur intensity as needed */
+  }
+
+.dashboard-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-sub{
+    width: 80%;
+    height: 80%;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.section-label{
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-family: 'DM Sans';
+}
+
+
+
+.card-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeeee;
+    border-radius: 10px;
+    width:200px;
+    height:350px;
+    padding: 145px 70px 145px 70px;
+    cursor: pointer;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: #eeeeee;
+    border-radius: 10px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:20px;
+    padding-top: 20px;
+    width:250px;
+}
+
+.item-image{
+    border-radius: 10px 10px 0px 0px;
+    height: 15rem;
+    border-bottom: .5px solid #dbdfe5;
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding:0;
+    margin:0;
+}
+
+.card-title{
+    font-size: 50px;
+    font-family: 'DM Sans';
+    margin-bottom: 10px;
+    margin-top:-20px;
+    position: relative;
+    margin-left:20px;
+    
+}
+
+.card-text{
+    font-size: 15px;
+    font-family: 'DM Sans';
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+
+.status1{
+    background-color: #9b9b9b;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom:5px;
+    margin-left:10px;
+    border-right: white solid 5px;
+}
+
+.status2{
+    background-color: #dfdede;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-bottom:5px;
+    border-left: white solid 5px;
+}
+
+
+.status-text{
+    font-size: 15px;
+    padding:10px;
+}
+
+.hover-effect {
+    color: #FF8F33;
+    cursor: pointer;
+  }
+
+
+.google-map-data{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 2.5%;
+    top: 3%;
+    z-index: 9999;
+
+}
+
+.maps-data-text{
+    font-size: 15px;
+    font-family: 'Unbounded';
+
+}
+
+.dashboard-section-text{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.rating-widget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    background-color: #eeeeee;
+    width: 40%;
+    padding: 75px;
+    border-radius: 10px;
+}
+
+.rating-widget-title-text{
+    font-size: 20px;
+    font-family: 'Unbounded';
+    margin-bottom: 20px;
+}
+
+.filled-star {
+    color: #FF8F33;
+  }
+  
+.empty-star {
+color: silver;
+}
+

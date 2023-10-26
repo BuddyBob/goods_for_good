@@ -1,0 +1,35 @@
+ 
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+    height: 100%;
+    }
+}
+
+.form-control{
+    background-color: #F2F2F2;
+    border: none;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'DM Sans';
+    color: #000000;
+}
+
+.register-button{
+    background-color: #FF8F33;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    font-family: 'DM Sans';
+    color: #FFFFFF;
+}

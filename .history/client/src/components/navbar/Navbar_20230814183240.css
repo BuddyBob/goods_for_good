@@ -1,0 +1,44 @@
+#neubar {
+    position: absolute;
+    background: #FF8F33;
+    border-radius: 20px;
+    width: 60%;
+    padding: 20px;
+  
+    /* Center horizontally */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:10px;
+  }
+  
+  .nav-item .active {
+    border-bottom: #454545 solid 1px;
+  }
+  #neubar .dropdown-menu a:hover {
+    color: #454545
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+    border-bottom: transparent solid 1px;
+    transition: border-bottom 0.3s ease; /* Add transition property */
+  }
+  #neubar .nav-item :hover{
+    border-bottom: #454545 solid 1px;
+  }
+  #neubar a {
+  
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545
+  }
+
+  .logout{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 8px 6px;
+    font-family: 'DM Sans';
+    border-radius: 10px;;
+  }

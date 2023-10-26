@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@500&display=swap');
+
+html {
+  -webkit-overflow-x-scrolling: hidden;
+  overflow-x: hidden !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-x-scrolling: hidden;
+  overflow-x: hidden !important;
+  color: var(--background-color);
+  height: 100%;
+  font-family: 'DM Sans', sans-serif;
+  /* font-family: 'Unbounded', cursive; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (min-height: 800px) {
+  body {
+    overflow-y: hidden;
+  }
+}
+
+.home-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top:90px;
+  padding-bottom: 90px;
+
+}
+
+.center-content{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title{
+  font-family: 'Unbounded', cursive;
+  font-size: 6vw;
+  color: white;
+}
+
+.home-subtitle{
+  position: relative;
+  font-family: 'Unbounded', cursive;
+  font-size:50px;
+  color: #FF8F33;
+}
+
+.home-subtitle-container{
+  margin-bottom:80px;
+}
+
+.home-description{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+   
+.card-title{
+  font-family: 'DM Sans';
+  font-size: 25px;
+  font-weight: bold;
+  font-weight: 800;
+  color: #FF8F33;
+}
+
+.card-description{
+  font-family: 'DM Sans';
+  font-size: 20px;
+  color: #000000;
+}
+
+.button-group{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.auth-option{
+  background: #FF8F33;
+  color: white;
+  padding: 16px 0px;
+  border-radius: 15px;
+  font-size: 20px;
+}   
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+  background-color: #ff8f33;
+  border-radius: 30px;
+  height: 325px;
+  margin-top:50px;
+}
+
+.profile-card-title{
+  font-family: 'Unbounded';
+  font-size: 25px;
+  color: #000000;
+  text-align: center;
+}
+
+.profile-card-description{
+  font-family: 'DM Sans';
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+}
+
+.round{
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 64px;
+  margin-bottom:20px;
+}
+
+.footer-logo{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.copyright-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.split-screen {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+
+
+.split-divider {
+  border-right: 1px solid #ccc;
+  height: 100%;
+  margin: 0 20px;
+}
+
+/* Style headers */
+h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style location details */
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .split-screen {
+    flex-direction: column;
+  }
+  .split-divider {
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+    height: auto;
+  }
+}

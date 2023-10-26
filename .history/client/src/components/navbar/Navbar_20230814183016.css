@@ -1,0 +1,37 @@
+#neubar {
+    position: absolute;
+    background: #FF8F33;
+    border-radius: 20px;
+    width: 60%;
+    padding: 20px;
+  
+    /* Center horizontally */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:10px;
+  }
+  
+  .nav-item .active {
+    border-bottom: #454545 solid 1px;
+  }
+  #neubar .dropdown-menu a:hover {
+    color: #454545
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545
+  }
+
+  .logout{
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 8px 0px;
+  }

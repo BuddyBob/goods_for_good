@@ -1,0 +1,71 @@
+.dashboard-main{
+    display: flex;
+    flex-direction: column;
+}
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #dbdfe5;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.your-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.section-label{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'DM Sans';
+}
+
+.cards-item-row{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+.card-plus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d5d4d4;
+    border-radius: 10px;
+    width:200px;
+    height:100px;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #d5d4d4;
+    border-radius: 10px;
+    width: 200px;
+    height:400px;
+}
+
+.card-item:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.5s;
+}
+
+.card-img {
+    width:200px;
+    height:200px;
+    border-radius:15px;
+}
+
+.card-item, .card-img {
+    box-sizing: border-box;
+}
