@@ -1,0 +1,59 @@
+
+
+.pop-container1{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    width: 400px;
+    border-radius: 15px;
+    padding-bottom: 40px;
+    z-index:9999;
+    margin-top:20px;
+    top: 320px;
+    margin-bottom:100px;
+    right: 0;
+    left: 0;
+    
+}
+
+.add-input{
+    border: none;
+    border-bottom: 1px solid rgb(152, 152, 152);
+}
+
+.add-input:focus{
+    outline: none;
+}
+
+.add-input::placeholder{
+    color: rgb(152, 152, 152);
+}
+
+.add--input:focus::placeholder{
+    color: transparent;
+}
+
+
+
+.add-image{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.add-image:hover{
+    cursor: pointer;
+}
+
+.addpopup-close{
+    z-index:9999;
+    position: absolute;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: transparent !important;
+    width:30px;
+    border: none;
+    top: 0px;
+    left:500%;
+}
